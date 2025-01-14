@@ -1,0 +1,23 @@
+/* Styling for the keyboard visualization */
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.key {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.key.active {
+  background-color: #0f0;
+}
+
+.key.error {
+  background-color: #f00;
+}
