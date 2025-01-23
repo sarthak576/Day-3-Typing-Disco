@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sarthak576/Typing-Disco.git/static/css/main.b1b3d81e.css",
-    "main.js": "/sarthak576/Typing-Disco.git/static/js/main.d00a0463.js",
-    "static/js/488.b87f8a08.chunk.js": "/sarthak576/Typing-Disco.git/static/js/488.b87f8a08.chunk.js",
+    "main.js": "/sarthak576/Typing-Disco.git/static/js/main.3d1e4dfe.js",
+    "static/js/488.ed13dacd.chunk.js": "/sarthak576/Typing-Disco.git/static/js/488.ed13dacd.chunk.js",
     "index.html": "/sarthak576/Typing-Disco.git/index.html",
     "main.b1b3d81e.css.map": "/sarthak576/Typing-Disco.git/static/css/main.b1b3d81e.css.map",
-    "main.d00a0463.js.map": "/sarthak576/Typing-Disco.git/static/js/main.d00a0463.js.map",
-    "488.b87f8a08.chunk.js.map": "/sarthak576/Typing-Disco.git/static/js/488.b87f8a08.chunk.js.map"
+    "main.3d1e4dfe.js.map": "/sarthak576/Typing-Disco.git/static/js/main.3d1e4dfe.js.map",
+    "488.ed13dacd.chunk.js.map": "/sarthak576/Typing-Disco.git/static/js/488.ed13dacd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1b3d81e.css",
-    "static/js/main.d00a0463.js"
+    "static/js/main.3d1e4dfe.js"
   ]
 }
