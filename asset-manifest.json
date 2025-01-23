@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Typing-Disco/static/css/main.b1b3d81e.css",
-    "main.js": "/Typing-Disco/static/js/main.106bb6df.js",
+    "main.css": "/Typing-Disco/static/css/main.e9af703a.css",
+    "main.js": "/Typing-Disco/static/js/main.87b81cd9.js",
     "static/js/488.ed13dacd.chunk.js": "/Typing-Disco/static/js/488.ed13dacd.chunk.js",
     "index.html": "/Typing-Disco/index.html",
-    "main.b1b3d81e.css.map": "/Typing-Disco/static/css/main.b1b3d81e.css.map",
-    "main.106bb6df.js.map": "/Typing-Disco/static/js/main.106bb6df.js.map",
+    "main.e9af703a.css.map": "/Typing-Disco/static/css/main.e9af703a.css.map",
+    "main.87b81cd9.js.map": "/Typing-Disco/static/js/main.87b81cd9.js.map",
     "488.ed13dacd.chunk.js.map": "/Typing-Disco/static/js/488.ed13dacd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1b3d81e.css",
-    "static/js/main.106bb6df.js"
+    "static/css/main.e9af703a.css",
+    "static/js/main.87b81cd9.js"
   ]
 }
