@@ -84,7 +84,7 @@ function App() {
   return (
     <div className="App">
       <script src="https://kit.fontawesome.com/a14a41c856.js" crossorigin="anonymous"></script>
-      <h1>Typing Disco</h1>
+      <h1 className="heading">Typing Disco</h1>
       <div className="difficulty-selector">
         <label>Select Difficulty: </label>
         <select value={difficulty} onChange={(e) => setDifficulty(e.target.value)}>
