@@ -25,6 +25,8 @@ function App() {
   const [wpm, setWpm] = useState(0);
   const [goalWPM, setGoalWPM] = useState(50);
   const [streak, setStreak] = useState(0);
+  const [testActive, setTestActive] = useState(true);
+
 
   // Select a random passage based on difficulty
   useEffect(() => {
@@ -59,6 +61,13 @@ function App() {
     if (wpm >= goalWPM) setStreak((prev) => prev + 1);
   }, [wpm]);
 
+  // timer logic to deactivate 
+  useEffect(() => {
+    if (timeLeft === 0) {
+      setTestActive(false); // Disable typing when time runs out
+    }
+  }, [timeLeft]);
+  
   // Restart the test
   const restartTest = () => {
     setTypedText("");
@@ -66,6 +75,7 @@ function App() {
     setErrors([]);
     setAccuracy(100);
     setWpm(0);
+    setTestActive(true)
     const randomPassage =
       passages[difficulty][Math.floor(Math.random() * passages[difficulty].length)];
     setSelectedPassage(randomPassage);
@@ -73,7 +83,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Advanced Typing Test</h1>
+      <script src="https://kit.fontawesome.com/a14a41c856.js" crossorigin="anonymous"></script>
+      <h1>Typing Disco</h1>
       <div className="difficulty-selector">
         <label>Select Difficulty: </label>
         <select value={difficulty} onChange={(e) => setDifficulty(e.target.value)}>
@@ -111,6 +122,7 @@ function App() {
         value={typedText}
         onChange={handleTextChange}
         placeholder="Start typing here..."
+        disabled={!testActive}  // disable typing
       ></textarea>
       <Keyboard activeKey={typedText.slice(-1)} errors={errors} />
       <div className="metrics">
@@ -120,7 +132,7 @@ function App() {
       </div>
       {streak >= 5 && <div className="badge">🏆 You're on fire! Streak: {streak}</div>}
       <button onClick={restartTest} className="restart-button">
-        Restart Test
+        Restart Test 
       </button>
     </div>
   );

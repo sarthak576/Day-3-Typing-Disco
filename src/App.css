@@ -1,3 +1,6 @@
+/* importing tailwind css  */
+
+
 /* Styling the dark-themed application */
 body {
   background-color: #121212;
@@ -12,10 +15,11 @@ body {
   padding: 20px;
 }
 
-textarea {
+textarea { 
   width: 100%;
   height: 100px;
   margin: 20px 0;
+  font-size:  30px !important;
 }
 
 .passage {
@@ -29,3 +33,4 @@ textarea {
 .incorrect {
   color: #ff0000;
 }
+
