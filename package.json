@@ -1,11 +1,10 @@
 {
-  "homepage": "https://github.com/sarthak576/Typing-Disco.git",
+  "homepage": " https://sarthak576.github.io/Typing-Disco/",
   "name": "Typing-Disco",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "^1.2.0",
-    "cra-templates": "^0.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
